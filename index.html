@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saraswathi &amp; Mageshwaran | Wedding Invitation | 20 November 2026</title>
+<meta name="description" content="You are warmly invited to the wedding of G. Saraswathi &amp; P. Mageshwaran on Friday, 20 November 2026, 9:00 AM – 10:30 AM at Veerabahu Mahal, North Authoor, Tamil Nadu.">
+<meta name="theme-color" content="#0a0506">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0805'/%3E%3Cpath d='M32 50C14 38 8 28 8 21c0-6 4-10 10-10 6 0 11 3 14 8 3-5 8-8 14-8 6 0 10 4 10 10 0 7-6 17-24 29z' fill='none' stroke='%23e3bf62' stroke-width='3'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="G. Saraswathi &amp; P. Mageshwaran | Wedding Invitation">
+<meta property="og:description" content="Two Hearts, Two Souls, One Love for All Time. Friday, 20 November 2026 · Veerabahu Mahal, North Authoor.">
+<!-- After deploying, change to the full URL, e.g. https://your-site.vercel.app/og-image.png -->
+<meta property="og:image" content="og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>[data-reveal],.ltr{opacity:1!important;transform:none!important;filter:none!important}#loader{display:none}</style></noscript>
+</head>
+<body class="lux">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#a8782f"/><stop offset=".5" stop-color="#f4dc95"/><stop offset="1" stop-color="#c9a24a"/></linearGradient>
+    <symbol id="heart" viewBox="0 0 100 100"><path d="M50 90C22 68 6 48 6 30 6 15 18 6 31 6 40 6 47 11 50 18 53 11 60 6 69 6 82 6 94 15 94 30 94 48 78 68 50 90Z"/></symbol>
+  </defs>
+</svg>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="progress" aria-hidden="true" hidden><i></i></div>
+
+<div id="loader" role="status" aria-label="Loading invitation">
+  <div><svg class="hearts" viewBox="0 0 160 120" data-hearts aria-hidden="true"></svg><p class="script">Saraswathi &amp; Mageshwaran</p></div>
+</div>
+
+<button id="music" class="fab-top" aria-pressed="false" aria-label="Play background music" hidden>
+  <svg class="i-on" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+  <svg class="i-off" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="m22 9-6 6m0-6 6 6"/></svg>
+</button>
+
+<!-- ============ 3D ENVELOPE INTRO ============ -->
+<div id="intro" class="intro" hidden>
+  <div class="spotlight"></div>
+  <div id="scene" class="scene" aria-hidden="true">
+    <div class="env-back"></div>
+    <div class="card" id="card">
+      <div class="panel top">
+        <small>WEDDING INVITATION</small>
+        <svg class="hearts" viewBox="0 0 160 120" data-hearts="static"></svg>
+        <div class="cn">G. Saraswathi</div>
+      </div>
+      <div class="panel bottom">
+        <div class="amp">&amp;</div>
+        <div class="cn">P. Mageshwaran</div>
+        <p class="cd">20 · 11 · 2026</p>
+        <small>VEERABAHU MAHAL · 9:00 AM – 10:30 AM</small>
+      </div>
+    </div>
+    <div class="env-front"></div>
+    <div class="flap"></div>
+    <div class="seal"></div>
+  </div>
+  <div class="cta">
+    <p class="script">You Are Cordially Invited</p>
+    <button id="open-btn" class="btn gold">Open Our Wedding Invitation</button>
+  </div>
+  <button id="skip" class="skip">Skip</button>
+</div>
+
+<!-- ============ MAIN SITE ============ -->
+<main id="site" hidden>
+
+  <section id="hero">
+    <div class="lights" aria-hidden="true"></div>
+    <div class="hero-bg"><svg class="hearts big glow" viewBox="0 0 160 120" data-hearts aria-hidden="true"></svg></div>
+    <div class="hero-in">
+      <p class="kicker">The Wedding Of</p>
+      <div class="hearts3d" id="hearts3d" aria-hidden="true"></div>
+      <h1 class="names script">
+        <span data-letters>G. Saraswathi</span>
+        <span class="amp">&amp;</span>
+        <span data-letters data-delay="0.7">P. Mageshwaran</span>
+      </h1>
+      <p class="quote">Two Hearts, Two Souls, One Love for All Time.</p>
+      <p class="datebig">Friday | 20 November 2026</p>
+      <a href="#families" class="btn gold">Explore Our Invitation</a>
+    </div>
+  </section>
+
+  <section id="families">
+    <div class="paper" data-reveal="turn">
+      <header class="head"><p class="kicker dark">With Joy</p><h2 class="script">Together With Our Families</h2></header>
+      <p class="center lead">It would give us great pleasure if you would join us on our wedding day.</p>
+      <div class="divider"><span></span><svg viewBox="0 0 100 100"><use href="#heart" fill="currentColor"/></svg><span></span></div>
+      <div class="fam">
+        <div><p class="kicker dark">Parents of the Bride</p><p class="pn">Mr. J. Gandhimathi Nathan</p><p class="pn">Mrs. G. Poochelvi</p></div>
+        <div class="vline"></div>
+        <div><p class="kicker dark">Parents of the Groom</p><p class="pn">Mr. P. Prasath</p><p class="pn">Mrs. P. Prema</p></div>
+      </div>
+      <div class="divider"><span></span><svg viewBox="0 0 100 100"><use href="#heart" fill="currentColor"/></svg><span></span></div>
+      <p class="script center big-quote">Two Hearts, Two Souls, One Love for All Time.</p>
+    </div>
+  </section>
+
+  <section id="countdown" class="center">
+    <div data-reveal class="wrap">
+      <header class="head"><p class="kicker">Counting the moments</p><h2 class="script gold-text">Until We Say I Do</h2></header>
+      <div id="cd" role="timer" aria-label="Time remaining until the wedding" class="cd-grid">
+        <div class="paper cell"><b id="cd-d">00</b><span>Days</span></div>
+        <div class="paper cell"><b id="cd-h">00</b><span>Hours</span></div>
+        <div class="paper cell"><b id="cd-m">00</b><span>Minutes</span></div>
+        <div class="paper cell"><b id="cd-s">00</b><span>Seconds</span></div>
+      </div>
+      <p id="cd-done" class="script done" hidden></p>
+      <p class="script save">Save the Date — 20.11.2026</p>
+      <p class="small">9:00 AM – 10:30 AM · Indian Standard Time</p>
+      <div class="row">
+        <button id="ics" class="btn gold">Add to Calendar</button>
+        <a id="gcal" class="btn ghost-d" target="_blank" rel="noopener noreferrer">Google Calendar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ceremony">
+    <div class="paper narrow" data-reveal="zoom">
+      <header class="head"><p class="kicker dark">Join Us</p><h2 class="script">Wedding Ceremony</h2></header>
+      <div class="rows">
+        <div class="r"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><div><p class="kicker dark">Date</p><p class="rv">Friday, 20 November 2026</p></div></div>
+        <div class="r"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><p class="kicker dark">Time</p><p class="rv">9:00 AM – 10:30 AM</p></div></div>
+        <div class="r"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><p class="kicker dark">Venue</p><p class="rv">Veerabahu Mahal<span class="sub">North Authoor, Tamil Nadu – 628151</span></p></div></div>
+      </div>
+      <div class="divider"><span></span><svg viewBox="0 0 100 100"><use href="#heart" fill="currentColor"/></svg><span></span></div>
+      <div class="center"><a class="btn gold" href="https://maps.app.goo.gl/4vEB8Qayk87V58Q89" target="_blank" rel="noopener noreferrer">Get Directions</a></div>
+    </div>
+  </section>
+
+  <section id="venue" class="center">
+    <div data-reveal class="wrap">
+      <header class="head"><p class="kicker">The Venue</p><h2 class="script gold-text">Veerabahu Mahal</h2></header>
+      <p class="lead light">North Authoor, Tamil Nadu – 628151</p>
+      <div class="tilt-wrap"><div id="tilt" class="tilt">
+        <svg viewBox="0 0 400 300" role="img" aria-label="Decorative illustration of a wedding hall (not the actual venue)" class="ill">
+          <g fill="rgba(201,162,74,.08)" stroke="#c9a24a" stroke-width="2" stroke-linejoin="round">
+            <rect x="0" y="270" width="400" height="30" stroke="none" fill="rgba(201,162,74,.12)"/>
+            <rect x="110" y="120" width="180" height="150"/><polygon points="90,120 310,120 282,92 118,92"/><polygon points="132,92 268,92 240,62 160,62"/>
+            <path d="M170 62Q200 14 230 62Z"/><path d="M170 270V205Q200 160 230 205V270"/>
+            <rect x="121" y="130" width="10" height="140"/><rect x="141" y="130" width="10" height="140"/><rect x="249" y="130" width="10" height="140"/><rect x="269" y="130" width="10" height="140"/>
+            <path d="M60 270V200Q60 175 80 200V270"/><path d="M340 270V200Q340 175 320 200V270"/>
+          </g><line x1="200" y1="14" x2="200" y2="2" stroke="#c9a24a" stroke-width="2"/>
+        </svg>
+        <span class="fh a">♥</span><span class="fh b">♥</span>
+      </div><p class="tiny">Artistic illustration. Not the actual venue.</p></div>
+      <div class="row">
+        <a class="btn gold" href="https://maps.app.goo.gl/4vEB8Qayk87V58Q89" target="_blank" rel="noopener noreferrer">Get Directions</a>
+        <a class="btn ghost-d" href="https://maps.app.goo.gl/4vEB8Qayk87V58Q89" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+        <button id="copy-venue" class="btn ghost-d">Copy Venue Details</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="story">
+    <div data-reveal class="wrap narrow">
+      <header class="head"><p class="kicker">Our Journey</p><h2 class="script gold-text">Two Hearts, One Beautiful Journey.</h2></header>
+      <div class="timeline">
+        <div class="tn"><span>♥</span><p>Some journeys are written in the stars.</p></div>
+        <div class="tn"><span>♥</span><p>Ours begins a beautiful new chapter on 20 November 2026.</p></div>
+        <div class="tn last"><span>♥</span><p class="script gold-text">20.11.2026</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rsvp">
+    <div class="paper narrow" data-reveal="turn">
+      <header class="head"><p class="kicker dark">RSVP (optional)</p><h2 class="script">Your Presence Will Make Our Day More Special.</h2></header>
+      <form id="rsvp-form" novalidate>
+        <div class="hp" aria-hidden="true"><label>Company<input id="f-trap" tabindex="-1" autocomplete="off"></label></div>
+        <label class="lbl" for="f-name">Your name</label>
+        <input id="f-name" maxlength="60" autocomplete="name" required><p class="err" data-err="name" role="alert"></p>
+        <fieldset><legend class="lbl">Attendance</legend>
+          <label class="chip"><input type="radio" name="attend" value="accept"> I will attend</label>
+          <label class="chip"><input type="radio" name="attend" value="decline"> Regretfully, I cannot</label>
+          <p class="err" data-err="attend" role="alert"></p>
+        </fieldset>
+        <div id="guests-wrap"><label class="lbl" for="f-guests">Number of guests attending</label>
+          <select id="f-guests"></select><p class="err" data-err="guests" role="alert"></p></div>
+        <label class="lbl" for="f-wishes">Wishes for the couple (optional)</label>
+        <textarea id="f-wishes" rows="4" maxlength="500" placeholder="Write your blessings here…"></textarea><p class="err" data-err="wishes" role="alert"></p>
+        <p class="err" data-err="form" role="alert"></p>
+        <div class="row"><button type="submit" class="btn gold" id="b-accept">Joyfully Accept</button><button type="button" class="btn ghost" id="b-wish">Send Wedding Wishes</button></div>
+        <p class="tiny dark">RSVP is optional. You can enjoy the invitation without sharing any details.</p>
+      </form>
+      <div id="rsvp-result" class="center" role="status" hidden></div>
+    </div>
+  </section>
+
+  <section id="closing">
+    <div class="paper closing" data-reveal="fold">
+      <svg class="hearts glow" viewBox="0 0 160 120" data-hearts aria-hidden="true" style="width:150px"></svg>
+      <p class="script big-quote">Two Hearts, Two Souls, One Love for All Time.</p>
+      <p class="names-s">G. Saraswathi &amp; P. Mageshwaran</p>
+      <p class="lead">20 November 2026 | 9:00 AM – 10:30 AM</p>
+      <p class="lead it">Your presence and blessings will make our special day unforgettable.</p>
+      <p class="kicker dark">With Best Compliments From Friends &amp; Relatives.</p>
+      <div class="hearts3d small" id="hearts3d-b" aria-hidden="true"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer id="footer" hidden>
+  <div class="f-ribbon"></div>
+  <div class="f-in">
+
+    <div class="f-brand">
+      <svg class="hearts glow" viewBox="0 0 160 120" data-hearts aria-hidden="true"></svg>
+      <p class="script f-names gold-text">Saraswathi &amp; Mageshwaran</p>
+      <p class="f-date">20 · 11 · 2026</p>
+      <p class="f-quote">Two Hearts, Two Souls, One Love for All Time.</p>
+    </div>
+
+    <div class="f-grid">
+      <div class="f-col">
+        <h3>The Celebration</h3>
+        <p>Friday, 20 November 2026</p>
+        <p>9:00 AM – 10:30 AM</p>
+        <p>Veerabahu Mahal<br>North Authoor, Tamil Nadu – 628151</p>
+      </div>
+
+      <nav class="f-col" aria-label="Invitation sections">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#families">Our Families</a></li>
+          <li><a href="#countdown">Countdown</a></li>
+          <li><a href="#ceremony">Wedding Ceremony</a></li>
+          <li><a href="#venue">The Venue</a></li>
+          <li><a href="#story">Our Journey</a></li>
+          <li><a href="#rsvp">RSVP &amp; Wishes</a></li>
+        </ul>
+      </nav>
+
+      <div class="f-col">
+        <h3>Stay Connected</h3>
+        <div class="f-actions">
+          <a id="f-dir" class="btn gold" target="_blank" rel="noopener noreferrer">Get Directions</a>
+          <button id="f-ics" class="btn ghost-d" type="button">Add to Calendar</button>
+          <a id="f-wa" class="btn ghost-d" target="_blank" rel="noopener noreferrer">Share on WhatsApp</a>
+          <button id="f-copy" class="btn ghost-d" type="button">Copy Invitation Link</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="f-bottom">
+      <p class="f-bless">With Best Compliments From Friends &amp; Relatives.</p>
+      <p class="f-copy">© <span id="yr">2026</span> G. Saraswathi &amp; P. Mageshwaran · Made with love</p>
+      <div class="f-credit">
+        <span>Design by <strong id="dsn-name">Rajan G</strong></span>
+        <a id="dsn-ig" class="ig" href="https://instagram.com/your_insta_id" target="_blank" rel="noopener noreferrer" aria-label="Designer on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+          <span id="dsn-handle">@your_insta_id</span>
+        </a>
+      </div>
+      <button id="totop" class="btn ghost-d" type="button">Back to top ↑</button>
+    </div>
+
+  </div>
+</footer>
+
+<div id="share" class="share" hidden>
+  <div id="share-menu" class="share-menu" hidden></div>
+  <button id="share-btn" class="fab" aria-expanded="false" aria-label="Share this invitation">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
