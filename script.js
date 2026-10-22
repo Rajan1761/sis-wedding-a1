@@ -16,10 +16,10 @@
     // RSVP delivery (optional). Use ONE of these; if both are empty the form says nothing was sent.
     rsvpEndpoint: '',   // e.g. 'https://formspree.io/f/xxxxxxx'
     rsvpWhatsapp: '',   // digits only with country code, e.g. '919876543210'
-    musicUrl: '',       // optional licensed mp3, e.g. 'audio/music.mp3'. Empty = built-in soft synth music
-    // Footer "Design by" credit  -> change these two
+    musicUrl: '/a1.mp3',       // optional licensed mp3, e.g. 'audio/music.mp3'. Empty = built-in soft synth music
+    // Footer "Design by" credit  
     designerName: 'Rajan G',
-    designerInsta: 'your_insta_id'   // Instagram ID without the @ (leave '' to hide the button)
+    designerInsta: '@real_king_buddy'   // Instagram ID without the @ (leave '' to hide the button)
   };
 
   var NS = 'http://www.w3.org/2000/svg';
