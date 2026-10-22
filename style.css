@@ -336,6 +336,25 @@ body.lux{--ink:#0a0506;--rainbow:linear-gradient(90deg,#7a5218,#f4dc95,#c9a24a,#
 .lux .f-col a:not(.btn):hover{color:var(--gold-l)}
 .lux .ig{color:#2a1a06;background:linear-gradient(135deg,#f4dc95,#c9a24a 55%,#a8782f);box-shadow:0 6px 20px rgba(201,162,74,.4)}
 .lux .ig:hover{box-shadow:0 10px 28px rgba(201,162,74,.6)}
+/* Copyright strip */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  margin-top: clamp(3rem, 8vh, 5rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(217, 180, 90, 0.2);
 
+  color: rgba(248, 240, 221, 0.43);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+}
+
+.footer-bottom-heart {
+  color: var(--footer-gold);
+  font-size: 0.85rem;
+}
 /* countdown tiles fill their columns */
 .cd-grid .cell{margin:0;max-width:none;width:100%}
